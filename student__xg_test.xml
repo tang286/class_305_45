@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/imgs"
+            android:layout_gravity="center"
+            android:src="@drawable/i1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/p_1"
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:text="姓名：" />
+
+        <TextView
+            android:id="@+id/p_2"
+            android:layout_width="302dp"
+            android:layout_height="30dp"
+            android:text="李老师" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:text="年龄：" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="302dp"
+            android:layout_height="30dp"
+            android:text="39" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:text="性别：" />
+
+        <TextView
+            android:id="@+id/sex"
+            android:layout_width="302dp"
+            android:layout_height="30dp"
+            android:text="女" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:text="科目：" />
+
+        <TextView
+            android:layout_width="302dp"
+            android:layout_height="30dp"
+            android:text="英语" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:text="专业：" />
+
+        <TextView
+            android:id="@+id/zhuanye"
+            android:layout_width="302dp"
+            android:layout_height="30dp"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="30dp"
+            android:text="注册时间：" />
+
+        <TextView
+            android:layout_width="302dp"
+            android:layout_height="30dp"
+            android:text="2019 年 4 月 10 日" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/pinqing1"
+            android:layout_width="428dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorControlHighlight"
+            android:onClick="btn_login_click"
+            android:text="聘请"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/yuetan1"
+            android:layout_width="428dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorControlHighlight"
+            android:onClick="btn_login_click"
+            android:text="约谈"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
