@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/name"
+        android:textSize="30sp"
+        android:text="无"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+    <TextView
+        android:id="@+id/zh"
+        android:textSize="30sp"
+        android:text="无"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+    <TextView
+        android:id="@+id/sf"
+        android:textSize="30sp"
+        android:text="无"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pq"
+        android:text="聘请"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/yt"
+        android:text="约谈"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+
+
+</LinearLayout>
